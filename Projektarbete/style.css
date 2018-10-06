@@ -45,7 +45,7 @@ h2 {
 }
 
 .container {
-  max-width: 960px;
+
   width: 960px;
 }
 
@@ -105,17 +105,30 @@ nav .container {
 }
 
 .small-logo p {
-  margin-left: 1rem;
+    margin-left: 1rem;
   letter-spacing: 0.2rem;
   font-weight: 400;
   color: #4cd59a;
 }
 
-.big-logo img:hover,
-.nav-btn:hover, .menu-icon:hover {
-    margin: 2px 0 0 2px;
-    transition-duration: 0.1s;
+.small-logo img:hover,
+ .menu-icon:hover {
+    transform: scale(1.1);
     cursor: pointer;
+}
+
+.badge {
+  transition: all .2s ease-in-out;
+}
+
+.badge:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+li:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .menu-icon {
@@ -137,7 +150,7 @@ nav .container {
   background-size: cover;
   background-position: 100% 30%;
   background-attachment: fixed;
-  opacity: 0.75;
+  opacity: 0.8;
 }
 
 #intro-body h1 {
@@ -173,8 +186,19 @@ nav .container {
 }
 
 .container-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 80%;
   text-align: center;
+}
+
+.badge-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .badge {
