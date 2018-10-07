@@ -110,10 +110,7 @@ nav {
 }
 
 .nav-logo {
-  display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
 }
 
 .logo, .logo img {
@@ -149,17 +146,12 @@ nav {
 }
 
 .dropdown {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 90px;
   width: 100%;
 }
 
 .dropdown-content {
   display: none;
-  align-items: center;
-  justify-content: center;
   height: 100%;
   width: 100%;
   background-color: #fff;
@@ -194,9 +186,6 @@ li:hover {
 }
 
 .background-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -205,9 +194,6 @@ li:hover {
 }
 
 .banner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 100%;
 }
 
@@ -234,20 +220,15 @@ li:hover {
   box-shadow: inset 0 0.2rem 0.5rem rgba(48, 120, 88, 0.5);
 }
 
-.container-center {
-  display: flex;
+.download {
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   width: 80%;
   text-align: center;
+  color: #fff;
 }
 
 .badge-container {
-  display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
 }
 
 .badge {
@@ -260,10 +241,6 @@ li:hover {
 .badge:hover {
   cursor: pointer;
   transform: scale(1.1);
-}
-
-.container-center p, .container-center h1 {
-  color: #fff;
 }
 
 #section-one h1 {
@@ -300,13 +277,10 @@ li:hover {
 .bottom {
   box-shadow: 0 -0.2rem 0.5rem rgba(0, 0, 0, 0.1);
   min-height: 200px;
+  text-align: center;
 }
 
 footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   background-color: #fff;
   box-shadow: 0 -2px 4px 0 rgba(77, 77, 79, .2);
@@ -389,8 +363,9 @@ li {
 
   .dropdown {
     height: 50vh;
-    width: 100%;
+    width: auto;
     z-index: 90;
+    display: flex;
     justify-content: flex-end;
   }
 
