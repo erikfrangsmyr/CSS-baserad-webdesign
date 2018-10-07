@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,65 +9,90 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
   <title>Projektarbete</title>
 </head>
+
 <body>
- <nav>
-   <div class="container">
-     <div class="small-logo">
-       <img src="img/logo.PNG" alt="pay_app_logo">
-       <p>company</p>
-     </div>
-     <div class="menu">
-       <img class="menu-icon" src="img/menu.svg" alt="menu">
-     </div>
-   </div>
- </nav>
- <section id="section-zero">
-   <div class="hero-image">
-     <div id="intro-body">
-       <div class="container">
-         <h1>company</h1>
-       </div>
-     </div>
-   </div>
- </section>
- <section id="section-one">
-   <div class="container">
-      <div class="container-center">
-       <h1>Download our app and start using our product today!</h1>
-       <div class="badge-container">
-       <img class="badge" src="img/googleplay.png" alt="Google Play Download">
-       <img class="badge" src="img/appstore.png" alt="App Store Download">
-       </div>
-   </div>
- </section>
- <section id="section-two">
-   <div class="container">
-     <div class="box">
-       <div class="content">
-         <div class="column">
-           <h1>About The Company</h1>
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-           </div>
-         <div class="column"><h1>Inspirational Quote</h1>
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <nav>
+    <div class="nav-header">
+      <div class="container">
+        <div class="nav-logo">
+          <img src="img/logo.PNG" alt="pay_app_logo">
+          <p>company</p>
         </div>
-       </div>
-     </div>
-   </div>
-   <div id="intro-body">
-     <div class="container">
-       <h1>Join us today</h1>
+        <div onclick="toggleMenu()" class="menu-icon">
+          <img class="icon" src="img/menu.svg" alt="menu">
+        </div>
+      </div>
     </div>
- </section>
- <footer>
-  <ul>
-    <p>About us</p>
-    <li>History</li>
-    <li>Contact</li>
-    <li>Cookies</li>
-    <li>Privacy Policy</li>
-    <li>FAQ</li>
-  </ul>
- </footer>
+      <div class="dropdown">
+        <div id="dropdown" class="dropdown-content">
+            <div class="menu-items">
+              <ul>
+                <li>History</li>
+                <li>Contact</li>
+                <li>Cookies</li>
+                <li>Privacy Policy</li>
+                <li>FAQ</li>
+              </ul>
+            </div>
+          </div>
+      </div>
+  </nav>
+  <section id="section-zero">
+    <div class="background-image background1">
+      <div class="banner">
+        <div class="container">
+          <h1>company</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="section-one">
+    <div class="container">
+      <div class="container-center">
+        <h1>Download the app and start using our product today!</h1>
+        <div class="badge-container">
+          <img class="badge" src="img/googleplay.png" alt="Google Play Download">
+          <img class="badge" src="img/appstore.png" alt="App Store Download">
+        </div>
+      </div>
+  </section>
+  <section id="section-two">
+    <div class="container">
+      <div class="box">
+        <div class="content">
+          <div class="column">
+            <h1>About The Company</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="column">
+            <h1>Inspirational Quote</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="section-three">
+    <div class="bottom banner background-image background2">
+      <div class="container">
+        <h1>company</h1>
+        <h2>A very cool slogan or catchphrase.</h2>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <ul>
+      <p>About us</p>
+      <li>History</li>
+      <li>Contact</li>
+      <li>Cookies</li>
+      <li>Privacy Policy</li>
+      <li>FAQ</li>
+    </ul>
+  </footer>
 </body>
+
+<script src="script.js"></script>
 </html>
