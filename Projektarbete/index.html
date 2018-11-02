@@ -9,32 +9,23 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
   <title>Projektarbete</title>
 </head>
-
 <body>
   <nav>
     <div class="nav-header">
       <div class="container">
         <div class="nav-logo center">
           <div class="logo">
-            <a href="#">
+            <a href="index.html">
               <img src="img/logic-logo.PNG" alt="logo">
             </a>
           </div>
         </div>
-        <div onclick="toggleMenu()" class="menu-icon">
-          <img class="icon" src="img/menu.svg" alt="menu">
-        </div>
-      </div>
-    </div>
-    <div class="dropdown">
-      <div id="dropdown" class="dropdown-content center">
         <div class="menu-items">
           <ul>
-            <li>history</li>
-            <li>contact</li>
-            <li>cookies</li>
-            <li>privacy policy</li>
-            <li>FAQ</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="biography.html">Biography</a></li>
+            <li><a href="discography.html">Discography</a></li>
+            <li><a href="#listen">Listen</a></li>
           </ul>
         </div>
       </div>
@@ -42,17 +33,11 @@
   </nav>
   <section id="section-zero" class="center">
     <div class="background-image background1 center">
-      <div class="banner center">
-      </div>
     </div>
   </section>
   <section id="section-one" class="center">
-    <div class="download container center">
-      <h1>Download the app and start using our product today!</h1>
-      <div class="badge-container center">
-        <img class="badge" src="img/googleplay.png" alt="Google Play Download">
-        <img class="badge" src="img/appstore.png" alt="App Store Download">
-      </div>
+    <div class="banner container center">
+      <h1>Who is Logic?</h1>
     </div>
   </section>
   <section id="section-two">
@@ -60,39 +45,51 @@
       <div class="box">
         <div class="content">
           <div class="column">
-            <h1>About The Company</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h1>Biography</h1>
+            <p>The stylistically dynamic and voluble Logic launched his rap career through uploads and mixtapes prior to signing a Def Jam deal that fostered sustained mainstream presence throughout the second half of the 2010s. The MC, singer,
+              songwriter, and producer made his recorded debut in 2009 and five years later hit the Top Five with his debut album, Under Pressure (2014), the first of several conceptual full-length projects to enter the Billboard 200 and rap charts
+              within the upper reaches...</p>
+            <div class="button" href="#">
+              <p><a href="biography.html">Read more</a></p>
+            </div>
           </div>
           <div class="column">
-            <h1>Inspirational Quote</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h1>Discography</h1>
+            <ul>
+              <h2>Studio Albumns</h2>
+              <li>Under Pressure (2014)</li>
+              <li>The Incredible True Story (2015)</li>
+              <li>Everybody (2017)</li>
+              <li>YSIV (2018)</li>
+            </ul>
+            <ul>
+              <h2>Mixtapes</h2>
+              <li>Logic: The Mixtape (2009)</li>
+              <li>Young, Broke & Infamous (2010)</li>
+              <li>Young Sinatra (2011)</li>
+              <li>Young Sinatra: Undeniable (2012)...</li>
+            </ul>
+            <div class="button" href="#">
+              <p><a href="discography.html">Read more</a></p>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section id="section-three" class="center">
-    <div class="bottom banner background-image background2 center">
-      <div class="container center">
-        <h1>company</h1>
-        <h2>A very cool slogan or catchphrase.</h2>
-      </div>
+  <section>
+    <div class="banner container center">
+      <h1>Listen to Logic</h1>
+    </div>
+  </section>
+  <section>
+    <div id="listen" class="center">
+      <iframe src="https://open.spotify.com/embed/artist/4xRYI6VqpkE3UwrDrAZL8L" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
     </div>
   </section>
   <footer class="center">
     <ul>
-      <p>About us</p>
-      <li>history</li>
-      <li>contact</li>
-      <li>cookies</li>
-      <li>privacy policy</li>
-      <li>FAQ</li>
-    </ul>
+      <p>Made by Erik Frängsmyr</p>
   </footer>
 </body>
-
-<script src="script.js"></script>
-
 </html>
